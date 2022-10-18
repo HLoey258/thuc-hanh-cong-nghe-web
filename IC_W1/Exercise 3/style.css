@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.container {
+ 
+    margin: 25px;
+    border: 0.5px solid whitesmoke;
+}
+.wrap {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-items{
+    border: 0.5px solid whitesmoke;
+    padding: 10px;
+}
+.list{
+    padding: 30px 20px;
+    
+}
+#readmore{
+    display: inline-block;
+    margin-left: auto;
+}
