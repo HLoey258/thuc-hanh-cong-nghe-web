@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Ex1_1 extends Component {
+class Ex11 extends Component {
     state = {
         heading: "React...",
         content: "Loading...",
@@ -26,4 +26,4 @@ class Ex1_1 extends Component {
     }
 }
 
-export default Ex1_1;
+export default Ex11;
