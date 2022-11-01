@@ -1,6 +1,6 @@
 import React from 'react';
 import InteractivePiano from './components/InteractivePiano';
-import MadeWithLoveTag from './components/MadeWithLoveTag';
+
 import './App.css';
 
 const App = () => (
